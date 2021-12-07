@@ -2,4 +2,6 @@ services:
   - type: pserv
     name: static
     env: static
-    repo: https://github.com/render-examples/demo-static-site/ # optional
+    repo: https://github.com/render-examples/create-react-app # optional
+    buildCommand: yarn build
+    staticPublishPath: ./build
